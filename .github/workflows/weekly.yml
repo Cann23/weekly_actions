@@ -37,4 +37,4 @@ jobs:
         if: steps.changes.outputs.run == 'true'
         run: |
           echo "Changes detected in last 5 minutes."
-          echo "Running weekly preparation tasks (test mode)."
+          echo "Running weekly preparation tasks."
