@@ -38,4 +38,3 @@ jobs:
         run: |
           echo "Changes detected in last 5 minutes."
           echo "Running weekly preparation tasks (test mode)."
-          date
