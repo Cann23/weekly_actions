@@ -5,7 +5,7 @@ name: Weekly Job
 on:
   # Triggers the workflow on push or pull request events but only for the "master" branch
   schedule:
-    - cron: '0 20 * * 0' # every 1 week on Sunday
+    - cron: '0 19 * * 0' # every Sunday 20:00 CET (Germany, winter)
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
