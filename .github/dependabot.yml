@@ -14,10 +14,3 @@ updates:
       - dependency-name: "*"
         update-types:
           - "version-update:semver-major"
-
-    # optional: explicitly allow patch updates (even for floating tags)
-    allow:
-      - dependency-name: "*"
-        update-types:
-          - "version-update:semver-patch"
-          - "version-update:semver-minor"
