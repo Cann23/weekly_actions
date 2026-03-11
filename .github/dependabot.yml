@@ -4,3 +4,11 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+
+    # automatically label PRs
+    labels:
+      - "dependencies"
+      - "github-actions"
+
+    # limit number of open PRs
+    open-pull-requests-limit: 5
