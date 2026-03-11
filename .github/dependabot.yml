@@ -5,10 +5,14 @@ updates:
     schedule:
       interval: "daily"
 
-    # automatically label PRs
     labels:
       - "dependencies"
       - "github-actions"
 
-    # limit number of open PRs
     open-pull-requests-limit: 5
+
+    # ignore major updates
+    ignore:
+      - dependency-name: "*"
+        update-types:
+          - "version-update:semver-major"
